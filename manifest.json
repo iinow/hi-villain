@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Hi-Villain",
+    "description": "안녕하세요. 자동 응답으로 업무 빠르게 하자!!!",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "hi.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.dooray.com/*"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
