@@ -1,9 +1,11 @@
 setTimeout(init, 3000)
 setInterval(watchChannel, 3000)
 
-const urlPattern = /^https:\/\/.*\.dooray\.com\/profile-image\/(\d+);/i
+const urlPattern = /^https:\/\/(.+)\.dooray\.com\/profile-image\/(\d+);/i
+const subDomainPattern = /^https:\/\/(.+)\.dooray\.com/i
 const hiPattern = /안녕하세요/i
 const groupStartIdx = 2
+let subDomain
 let meUid
 
 /**
@@ -37,7 +39,7 @@ function watchChannel() {
 }
 
 async function postDoorayMessage(channelId) {
-  const res = await fetch(`https://nhnent.dooray.com/messenger/v1/api/channelLogs/${channelId}`, {
+  const res = await fetch(`https://${subDomain}.dooray.com/messenger/v1/api/channelLogs/${channelId}`, {
     method: 'POST',
     headers: {
        'Content-Type': 'application/json;charset=UTF-8'
@@ -49,7 +51,7 @@ async function postDoorayMessage(channelId) {
 }
 
 async function handleDoorayChannelMessageList(channelId) {
-  const res = await fetch(`https://nhnent.dooray.com/messenger/v1/api/channel/${channelId}/logs?limit=50&setLastChannel=true`)
+  const res = await fetch(`https://${subDomain}.dooray.com/messenger/v1/api/channel/${channelId}/logs?limit=50&setLastChannel=true`)
   const data = await res.json()
 
   if(!data.header.isSuccessful) {
@@ -73,7 +75,7 @@ async function handleDoorayChannelMessageList(channelId) {
 }
 
 async function handleDoorayChannel() {
-  const res = await fetch('https://nhnent.dooray.com/messenger/v1/api/members/me/favorites?responseType=all&flags=system,normal,archived')
+  const res = await fetch(`https://${subDomain}.dooray.com/messenger/v1/api/members/me/favorites?responseType=all&flags=system,normal,archived`)
   const data = await res.json()
   if(!data.header.isSuccessful) {
     return
@@ -91,7 +93,9 @@ async function handleDoorayChannel() {
 
 function getChannelId(src) {
   if(urlPattern.test(src)) {
-    return urlPattern.exec(src)[1]
+    const res = urlPattern.exec(src)
+    subDomain = res[1]
+    return res[2]
   }
   return undefined
 }
@@ -115,7 +119,12 @@ function createGroupCheckbox(memberId) {
   return checkbox
 }
 
+function setSubDomain() {
+  subDomain = subDomainPattern.exec(location.href)[1]
+}
+
 function init() {
+  setSubDomain()
   handleDoorayChannel()
 
   const messengerGroup = document.getElementsByClassName('ReactVirtualized__Grid__innerScrollContainer')
