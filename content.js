@@ -85,9 +85,13 @@ async function handleDoorayChannel() {
     .filter(channel => channel.type == 'direct')
     .forEach(channel => {
       meUid = channel.memberId
-      channelMap[channel.members[0]] = {
-        channelId: channel.channelId
-      }
+      channel.members
+        .filter(memberId => meUid !== memberId)
+        .forEach(otherId => {
+          channelMap[otherId] = {
+            channelId: channel.channelId
+          }
+        })
     })
 }
 
