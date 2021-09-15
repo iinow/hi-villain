@@ -1,0 +1,38 @@
+{
+    "result": [
+        {
+            "eduDivCd": "001001",
+            "avgSc": "bgCate 에서의 평균 점수",
+            "cnt": "bgCate 에서의 전체 개수",
+            "wrDtm": "202012021111"
+        }
+    ],
+    "stdyDayList": [
+        {
+            "eduDivCd": "001001.,....."
+        }
+    ],
+    "wrdAvgSc": "008001, 008002, 008003 smlCate += avgSc",
+    "wrdCnt": "008001, 008002, 008003 smlCate 개수",
+    "sntencAvgSc": "008004, 008005, 008006 smlCate += avgSc",
+    "sntencCnt": "008004, 008005, 008006 smlCate 개수",
+    "exprsnAvgSc": "008009 += avgSc",
+    "exprsnCnt": "008009 개수",
+    "convrsAvgSc": "008007, 008008 += avgSc",
+    "convrsCnt": "008007, 008008 개수"
+}
+
+
+
+
+{
+    $lookup: {
+        from: 'student', 
+        let: { 
+            stuId: { 
+                $toObjectId: '$studentIds'
+            }
+        },
+        "pipeline: [{$match: {$expr: { $eq: [ '$_id', '$$stuId' ] },},}, "
+        + "{$project: {isSendTemplate: 1,openId: 1,stu_name: '$name',stu_id: '$_id',},},], "
+        + "as: 'student',}, }

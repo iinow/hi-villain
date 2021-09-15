@@ -1,0 +1,236 @@
+{
+    "_id": ObjectId("5f93d5b5a11daf275b58f29b"),
+    "stdetNo": 1000027,
+    "wrPerNo": 1000027,
+    "wrDtm": "20201024162021",
+    "updtPerNo": 1000027,
+    "updtDtm": "20201113150432",
+    "lstStdyDtm": "20201113150432",
+    "stdyDayList": [
+        {
+            "stdyDay": "20201024",
+            "stdyHrSecV": 174.66999605298042,
+            "updtDtm": "20201024162612",
+            "updtPerNo": 1000027
+        },
+        {
+            "stdyDay": "20201103",
+            "stdyHrSecV": 70.08,
+            "updtPerNo": 1000027,
+            "updtDtm": "20201103214856"
+        },
+        {
+            "stdyDay": "20201106",
+            "stdyHrSecV": 121.08,
+            "updtPerNo": 1000027,
+            "updtDtm": "20201106111830"
+        },
+        {
+            "stdyDay": "20201109",
+            "stdyHrSecV": 133.71,
+            "updtPerNo": 1000027,
+            "updtDtm": "20201109092939"
+        },
+        {
+            "stdyDay": "20201113",
+            "stdyHrSecV": 141.74,
+            "updtPerNo": 1000027,
+            "updtDtm": "20201113150432"
+        }
+    ],
+    "bgCateList": [
+        {
+            "bgCateNo": 1,
+            "avgSc": 56,
+            "stdyHrSecV": 641.2799960529806,
+            "stdyTms": 113,
+            "rvsYCd": "002001",
+            "midCateList": [
+                {
+                    "midCateNo": 1,
+                    "avgSc": 40,
+                    "stdyHrSecV": 214.97999605298043,
+                    "stdyTms": 48,
+                    "smlCateList": [
+                        {
+                            "smlCateNo": 1,
+                            "avgSc": 84,
+                            "stdyHrSecV": 37.12999963760376,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 2,
+                            "avgSc": 33,
+                            "stdyHrSecV": 15.299999833106995,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 3,
+                            "avgSc": 67,
+                            "stdyHrSecV": 10.849999904632568,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 4,
+                            "avgSc": 67,
+                            "stdyHrSecV": 92.29999786376953,
+                            "stdyTms": 9,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 5,
+                            "avgSc": 17,
+                            "stdyHrSecV": 13.34999942779541,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 6,
+                            "avgSc": 50,
+                            "stdyHrSecV": 10.459999918937683,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 7,
+                            "avgSc": 0,
+                            "stdyHrSecV": 5.4900000393390656,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 8,
+                            "avgSc": 0,
+                            "stdyHrSecV": 3.429999828338623,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 9,
+                            "avgSc": 40,
+                            "stdyHrSecV": 26.669999599456787,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        }
+                    ]
+                },
+                {
+                    "midCateNo": 2,
+                    "avgSc": 64,
+                    "stdyHrSecV": 105.94000000000003,
+                    "stdyTms": 17,
+                    "smlCateList": [
+                        {
+                            "smlCateNo": 10,
+                            "avgSc": 44,
+                            "stdyHrSecV": 72.70000000000002,
+                            "stdyTms": 11,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 11,
+                            "avgSc": 83,
+                            "stdyHrSecV": 33.24,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        }
+                    ]
+                },
+                {
+                    "midCateNo": 3,
+                    "avgSc": 64,
+                    "stdyHrSecV": 320.36000000000007,
+                    "stdyTms": 48,
+                    "smlCateList": [
+                        {
+                            "smlCateNo": 19,
+                            "avgSc": 60,
+                            "stdyHrSecV": 56.92,
+                            "stdyTms": 8,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 20,
+                            "avgSc": 50,
+                            "stdyHrSecV": 30.630000000000003,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 21,
+                            "avgSc": 83,
+                            "stdyHrSecV": 20.770000000000003,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 22,
+                            "avgSc": 78,
+                            "stdyHrSecV": 49.89000000000001,
+                            "stdyTms": 7,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 23,
+                            "avgSc": 100,
+                            "stdyHrSecV": 16.74,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 24,
+                            "avgSc": 100,
+                            "stdyHrSecV": 24.979999999999997,
+                            "stdyTms": 6,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 25,
+                            "avgSc": 75,
+                            "stdyHrSecV": 79.27,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 26,
+                            "avgSc": 0,
+                            "stdyHrSecV": 11.850000000000001,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        },
+                        {
+                            "smlCateNo": 27,
+                            "avgSc": 33,
+                            "stdyHrSecV": 29.310000000000002,
+                            "stdyTms": 3,
+                            "smlStdyFinYn": "Y",
+                            "smlStdyProcStatus": "Y"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 setTimeout(init, 3000)
-setInterval(watchChannel, 3000)
+setInterval(watchChannel, 1000 * 40 * 3)
 
 const urlPattern = /^https:\/\/(.+)\.dooray\.com\/profile-image\/(\d+);/i
 const subDomainPattern = /^https:\/\/(.+)\.dooray\.com/i
@@ -139,7 +139,7 @@ function init() {
       if(index < groupStartIdx) {
         return
       }
-      const groupTextWrap = group.children[0].children[0].children[1]
+      const groupTextWrap = group.children[1].children[0].children[1]
       const imgList = group.getElementsByTagName('img')
       if(imgList.length === 0) {
         return

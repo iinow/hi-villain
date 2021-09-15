@@ -1,0 +1,161 @@
+{
+    "totalAvgSc": 62,
+    "divProgInfo": {
+        "wrdAvgSc": 83,
+        "sntencAvgSc": 72,
+        "exprsnAvgSc": 68,
+        "convrsAvgSc": 42,
+        "flucyAvgSc": 85
+    },
+    "stdyHrInfo": {
+        "fstActDtm": "20201008135039",
+        "lstActDtm": "20201120102421",
+        "totalStdyHrSecV": "9301.61",
+        "weekStdyHrSecV": "0.00",
+        "dalyAvgStdyHrSecV": "357.75",
+        "mnByAvgStdyHrSecV": "252.85"
+    },
+    "eduDivCount": 4,
+    "eduDivList": [
+        {
+            "eduDivCd": "001001",
+            "totalStar": 5400,
+            "totalProgStar": 77,
+            "fstStdyDtm": "20201008135039",
+            "lstStdyDtm": "20201120102421",
+            "stdyDayList": [
+                {
+                    "stdyDay": "2020-10-08",
+                    "stdyHrSecV": 300.08
+                },
+                {
+                    "stdyDay": "2020-10-09",
+                    "stdyHrSecV": 34.27
+                },
+                {
+                    "stdyDay": "2020-10-12",
+                    "stdyHrSecV": 15.08
+                },
+                {
+                    "stdyDay": "2020-11-05",
+                    "stdyHrSecV": 770.65
+                },
+                {
+                    "stdyDay": "2020-11-06",
+                    "stdyHrSecV": 215.37
+                },
+                {
+                    "stdyDay": "2020-11-09",
+                    "stdyHrSecV": 669.3
+                },
+                {
+                    "stdyDay": "2020-11-10",
+                    "stdyHrSecV": 509.91
+                },
+                {
+                    "stdyDay": "2020-11-11",
+                    "stdyHrSecV": 835.44
+                },
+                {
+                    "stdyDay": "2020-11-12",
+                    "stdyHrSecV": 36.6
+                },
+                {
+                    "stdyDay": "2020-11-13",
+                    "stdyHrSecV": 19.47
+                },
+                {
+                    "stdyDay": "2020-11-16",
+                    "stdyHrSecV": 219.26
+                },
+                {
+                    "stdyDay": "2020-11-17",
+                    "stdyHrSecV": 354.47
+                },
+                {
+                    "stdyDay": "2020-11-19",
+                    "stdyHrSecV": 520.38
+                },
+                {
+                    "stdyDay": "2020-11-20",
+                    "stdyHrSecV": 1822.59
+                }
+            ]
+        },
+        {
+            "eduDivCd": "001002",
+            "totalStar": 0,
+            "totalProgStar": 0,
+            "fstStdyDtm": "20201105202346",
+            "lstStdyDtm": "20201119100049",
+            "stdyDayList": [
+                {
+                    "stdyDay": "2020-11-05",
+                    "stdyHrSecV": 33.79
+                },
+                {
+                    "stdyDay": "2020-11-11",
+                    "stdyHrSecV": 325.47
+                },
+                {
+                    "stdyDay": "2020-11-13",
+                    "stdyHrSecV": 17.52
+                },
+                {
+                    "stdyDay": "2020-11-17",
+                    "stdyHrSecV": 442.75
+                },
+                {
+                    "stdyDay": "2020-11-19",
+                    "stdyHrSecV": 43.13
+                }
+            ]
+        },
+        {
+            "eduDivCd": "001004",
+            "totalStar": 1080,
+            "totalProgStar": 11,
+            "fstStdyDtm": "20201105202537",
+            "lstStdyDtm": "20201119100941",
+            "stdyDayList": [
+                {
+                    "stdyDay": "2020-11-05",
+                    "stdyHrSecV": 245.12
+                },
+                {
+                    "stdyDay": "2020-11-11",
+                    "stdyHrSecV": 1375.21
+                },
+                {
+                    "stdyDay": "2020-11-17",
+                    "stdyHrSecV": 86.92
+                },
+                {
+                    "stdyDay": "2020-11-19",
+                    "stdyHrSecV": 70.87
+                }
+            ]
+        },
+        {
+            "eduDivCd": "001005",
+            "totalStar": 840,
+            "totalProgStar": 5,
+            "fstStdyDtm": "20201105201556",
+            "lstStdyDtm": "20201117103722",
+            "stdyDayList": [
+                {
+                    "stdyDay": "2020-11-05",
+                    "stdyHrSecV": 243.86
+                },
+                {
+                    "stdyDay": "2020-11-12",
+                    "stdyHrSecV": 37.36
+                },
+                {
+                    "stdyDay": "2020-11-17",
+                    "stdyHrSecV": 56.74
+                }
+            ]
+        }
+    ]
+}

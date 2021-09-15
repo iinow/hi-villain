@@ -1,0 +1,40 @@
+{
+    "result": [
+        {
+            "eduDivCd": "001001",
+            "totalAvgSc": 1929,
+            "totalCnt": 19129,
+            "totalProgStar": "2000 이건 smlCateList 에서 점수 가져와서 한개 한개씩 확인하면 될듯함.. ",
+            "wrdAvgSc": 221.2,
+            "wrdCnt": 200,
+            "sntencAvgSc": 211,
+            "sntencCnt": 100,
+            "exprsnAvgSc": 191,
+            "exprsnCnt": 1100,
+            "convrsAvgSc": 100,
+            "convrsCnt": 10,
+            "wrDtm": "dkfjd",
+            "lstStdyDtm": "1923912",
+            "bgCateList": [
+                {
+                    "bgCateNo": 2,
+                    "midCateList": [
+                        {
+                            "mdCateNo": 1,
+                            "smlCateList": [
+                                {
+                                    "smlCateNo": 1,
+                                    "avgSc": 200,
+                                    "smlStdyFinYn": "Y"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "stdyDayList": [
+                {}
+            ]
+        }
+    ]
+}
